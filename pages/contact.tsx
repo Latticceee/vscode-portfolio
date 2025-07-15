@@ -8,7 +8,7 @@ const ContactPage = () => {
       <h1 className={styles.pageTitle}>Contact Me</h1>
       <p className={styles.pageSubtitle}>
         Feel free to reach out to me through any of the social platforms below.
-        I&apos;m always open to new opportunities and connections.
+        I&apos;m always open to new opportunities and connections. Also if you have a nice problem, send it over!
       </p>
       <div className={styles.container}>
         <div className={styles.contactContainer}>

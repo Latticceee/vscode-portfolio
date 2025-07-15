@@ -27,14 +27,15 @@ const explorerItems = [
     icon: '/logos/js_icon.svg',
   },
   {
-    name: 'articles.json',
-    path: '/articles',
+    name: 'whatpeoplesay.tsx',
+    path: '/whatpeoplesay',
     icon: '/logos/json_icon.svg',
   },
+  // This object has been changed
   {
-    name: 'github.md',
-    path: '/github',
-    icon: '/logos/markdown_icon.svg',
+    name: 'quotes.tex',
+    path: '/quotes',
+    icon: '/logos/json_icon.svg', // Changed icon (you can use any icon you have)
   },
 ];
 

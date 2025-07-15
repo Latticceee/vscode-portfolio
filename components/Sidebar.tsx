@@ -12,11 +12,12 @@ import {
 
 import styles from '@/styles/Sidebar.module.css';
 
+import { VscBeaker } from 'react-icons/vsc';
 const sidebarTopItems = [
   { Icon: VscFiles, path: '/' },
   { Icon: VscGithubAlt, path: '/github' },
   { Icon: VscCode, path: '/projects' },
-  { Icon: VscEdit, path: '/articles' },
+  { Icon: VscEdit, path: '/whatpeoplesay' },
   { Icon: VscMail, path: '/contact' },
 ];
 

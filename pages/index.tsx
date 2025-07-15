@@ -14,9 +14,9 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    name: 'Omar Said',", type: 'array-item' },
+    { code: "    role: 'Mathematician, Researhcer, and an Explorer.',", type: 'array-item' },
+    { code: "    bio: 'I love to do things I find interisting.'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -91,14 +91,14 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Omar <span className={styles.accentText}>Said</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Mathematician, Researhcer, and an Explorer.</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            I solve beutifull Math problems, and build elegant web applications. My eagerness to 
+            learn doesn't and will not stop. I am the kind of guy who value Math questions that love letter.
           </p>
 
           <div className={styles.actionLinks}>

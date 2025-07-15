@@ -2,39 +2,39 @@ import styles from '@/styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    social: 'Email',
+    link: 'School email',
+    href: 'Omar.1323047@stemdakahlia.moe.edu.eg',
+  }, 
+  {
+    social: 'Email',
+    link: 'Personal email',
+    href: 'Omargemini6smiths@gmail.com',
   },
   {
-    social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    social: 'Github',
+    link: 'Latticceee',
+    href: 'https://github.com/Latticceee',
   },
   {
-    social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    social: 'Linkedin',
+    link: 'Omar Said',
+    href: 'https://www.linkedin.com/in/omar-said-473b06337/',
   },
-  {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    {
+    social: 'Discord',
+    link: 'thesmiths3',
+    href: 'discordapp.com/users/1254105034850046044',
   },
-  {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+      {
+    social: 'Spotify',
+    link: 'Omar Said',
+    href: 'https://open.spotify.com/user/31hvwyie37djc7ifcpfgpgc2ipi4?si=a1f196656c9c4874',
   },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+        {
+    social: 'Aops',
+    link: 'Latticceee',
+    href: 'https://artofproblemsolving.com/community/user/<Latticceee>',
   },
 ];
 

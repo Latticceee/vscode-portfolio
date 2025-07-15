@@ -35,3 +35,9 @@ export interface User {
   public_repos: number;
   followers: number;
 }
+// in types.ts
+export interface Quote {
+  id: number;
+  text: string;
+  author: string;
+}

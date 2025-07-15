@@ -1,0 +1,64 @@
+/* styles/BlogPage.module.css */
+
+.layout {
+  max-width: 800px;
+  margin: 0 auto;
+  /* Adjust the top and bottom padding as needed */
+  padding: 4rem 1rem; 
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.pageSubtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.post {
+  background: var(--article-bg);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.postTitle {
+  font-size: 1.75rem;
+  color: var(--accent-color);
+  margin-bottom: 0.25rem;
+}
+
+.postDate {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.postContent {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.postContent p {
+  margin-bottom: 1rem;
+}
